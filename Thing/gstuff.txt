@@ -1,0 +1,79 @@
+git commands
+
+git push orgin testbranch
+to push files after local resp is
+committed too, to push the changes to the
+github resp thorugh the orgin
+
+
+
+history of my used commands for later
+
+
+make sure what branch you are on when doing any of this by useing 'git checkout <(usally local)branchname>'
+
+565  cd Projects/Atm-thingy/
+566  git status
+567  git commit -m "First Commit Tman"               //to make a new empty commit   -m = message
+568  git commit --list
+569  git push Thing master
+570  git commit-tree master
+571  git commit-tree master -h
+572  git commit-tree master -F
+573  git commit-tree HEAD
+574  git log
+575  git branch help
+576  git branch --list
+577  git branch -d help
+578  git branch testbranch
+579  git checkout testbranch
+580  git add .
+581  git commit
+582  git commit -m "First commit for the testbranch thing( actually its the secound one but I dont care)\n"
+583  git log\n"\n"
+584  git log testbranch\n"\n"
+585  git commit -m "new test commit\n"
+586  git commit -m "new test commit"\n"\n\nq
+587  git commit -m "new test commit"
+588  git log
+589  git log testbranch
+590  git log HEAD
+591  cd Projects/Atm-thingy/
+592  git remote
+593  git checkout master
+594  git remote add orgin https:// github.com/user/Thi
+595  git remote -v
+596  git push orgin master
+597  git push orgin testbranch
+598  git push orgin testbranch
+599  git checkout testbranch
+600  git push orgin testbranch
+601  history
+602  git add .
+603  git add
+604  git add .
+605  git commit "added the old Files folder for refrence as I update it from python 2 to 3 and make upgrades"
+606  git commit Thing/ "added the old Files folder for refrence as I update it from python 2 to 3 and make upgrades"
+607  git commit -a -m "added the old Files folder for refrence as I update it from python 2 to 3 and make upgrades"
+608  git -v
+609  git log
+610  git status
+611  git log orgin/testbranch
+612  git log testbranch
+613  git checkout orgin/testbranch
+614  git commit -a -m "added the old Files folder for refrence as I update it from python 2 to 3 and make upgrades"
+615  git log
+616  git status
+617  git checkout
+618  git checkout testbranch
+619  git info
+620  git log
+621  git gui
+622  git push -a -m "from local testbranch with commit, now I am using "git push -a -m' to push it to the remote. old message:added the old Files folder for refrence as I update it from python 2 to 3 and make upgrades"\nquote stuff\n
+623  git push -a -m "from local testbranch with commit, now I am using "git push -a -m' to push it to the remote. old message:added the old Files folder for refrence as I update it from python 2 to 3 and make upgrades"\nquote stuff\n\n"\n'
+624  git push orgin orgin/testbranch "take 3, from local testbranch with commit, now I am using "git push -a -m' to push it to the remote. old message:added the old Files folder for refrence as I update it from python 2 to 3 and make upgrades"\n"quotes stuffs3"\nexit\nstop\n\n\n\nad\nf\nadf\ndd\nd\nd\n'
+625  git push orgin orgin/testbranch
+626  git push testbranch  orgin/testbranch
+627  git push orgin
+628  git push orgin testbranch
+629  man git push
