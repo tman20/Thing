@@ -1,4 +1,12 @@
+
+NO links in plaintext or it wont show up in github
+
+
 git commands
+
+
+
+
 
 git push orgin testbranch
 to push files after local resp is
